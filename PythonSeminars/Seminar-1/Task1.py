@@ -11,6 +11,6 @@ n = int(input("Введите первое число: "))
 print(type(n))
 m = int(input("Введите второе число: "))
 print(type(m))
-c = round(m/n)+1
-print(c)
+c = round(n/m)+1
+print(f"Количество дней: {c}")
 print(type(c))
